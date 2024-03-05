@@ -1,0 +1,597 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salord Real Estate</title>
+    <link rel="stylesheet" href="Real-estate.css">
+    <link rel="shortcut icon" href="İmage/logo (1).png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+    
+
+    <nav class="navbar navbar-expand-lg bg-white fixed-top ">
+        <div class="container">
+          <a class="navbar-brand " href="#"> <img class="w-50" src="İmage/logo (1).png" alt="logo">  </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-auto text-center py-2">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Popüler</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Servis</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Yorumlar</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Sorular</a>
+              </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link px-3 py-2 btn bg-dark text-white rounded-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Bize Ulaşın
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">İletişim</a></li>
+                  <li><a class="dropdown-item" href="#">Adres</a></li>
+                  <li><a class="dropdown-item" href="#">Sosyal Medyada Biz</a></li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+<!-- Header-photo-->
+
+<div id="carouselExampleIndicators" class="carousel slide  ">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner w-100-height">
+      <div class="carousel-item active mt-sm-5 mt-5">
+        <img src="İmage/home6.jpg" class="d-block w-100 w-100-height" alt="home1">
+          <div class="carousel-caption carousel1 ms-3 ">
+           <p class="">1 / 3</p>
+           <h1 class="lh-sm textphoto1 mt-3">DAHA KOLAY <br> KEŞFEDİN</h1>
+                        <div class="d-flex pt-3">
+                            <input type="text"  class="form-control search w-50 p-2" placeholder="Arama...">
+                            <i class="bi bi-search btn bg-white text-dark px-2 py-2 mx-1" ></i>
+                        </div>
+          </div>
+        </div>
+      <div class="carousel-item mt-5 mt-lg-3 ">
+        <img src="İmage/home7.jpg" class="d-block w-100 w-100-height" alt="home2">
+        <div class="carousel-caption carousel1 ms-3 ">
+            <p class="">2 / 3</p>
+            <h1 class=" textphoto1">GELECEK NESİLLER <br> İÇİN</h1>
+                          <button class="btn bg-white text-dark px-3 mt-3">Daha Fazla</button>
+                         
+           </div>
+
+      </div>
+      <div class="carousel-item mt-5 mt-lg-5">
+        <img src="İmage/home8.jpg" class="d-block w-100 w-100-height " alt="home3">
+            <div class="carousel-caption carousel1 ms-3 ">
+            <p class="">3 / 3</p>
+            <h1 class=" textphoto1">EMLAK ALIM  <br>SATIM REHBERİ </h1>
+                          <button class="btn bg-white text-dark px-3 mt-3">Daha Fazla</button>
+                         
+           </div>
+
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+<!--Section Popular-->
+
+<section class="container">
+ <p class=" mb-0"style="margin-top: 100px" id="populer">Popüler</p>
+         <div class="d-flex justify-content-between popular-title align-items-center ">
+          <h2>Popüler Rezidanslarımız</h2>
+             <p class="fs-6 fw-bold ">Tümünü Keşfedin <span class="mt-sm-0 mt-md-0" style="font-size:40px; cursor:pointer; ">&rarr;</span> </p>
+         </div>
+
+             <div class="row">
+                     <div class="col-sm-12 col-lg-4 col-md-4 ">
+                        <div class="card rounded-0 border-1">
+                            <img src="İmage/home1.jpg" class="card-img-top rounded-0" alt="home">
+                            <div class="card-body">
+                              <p class="card-title text-muted">Muğla Türkiye</p>
+                              <div class="cartext1 mt-4 d-flex ms-2">
+                                <p class="text-muted px-3"><i class="bi bi-car-front-fill text-muted px-1"></i>bed</p>
+                                <p class="text-muted px-3 ">  <i class="bi bi-caret-right-fill text-muted px-1"></i>8*8</p>
+                                <p class="text-muted px-3 ">  <i class="bi bi-compass-fill text-muted px-1"></i>2000m<sup>2</sup></p>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <a class="btn bg-dark text-white" href="">Rezervasyon Yap</a>
+                                <p class="fw-bold mt-3">$20.138.098</p></div>
+                              
+                            </div>
+                          </div>
+
+                     </div>
+
+                     <div class="col-sm-12 col-lg-4 col-md-4">
+                        <div class="card rounded-0 border-1">
+                            <img src="İmage/home4.jpg" class="card-img-top rounded-0" alt="home">
+                            <div class="card-body">
+                              <p class="card-title text-muted">Muğla Türkiye</p>
+                              <div class="cartext1 mt-4 d-flex ms-2">
+                                <p class="text-muted px-3"><i class="bi bi-car-front-fill text-muted px-1"></i>bed</p>
+                                <p class="text-muted px-3 ">  <i class="bi bi-caret-right-fill text-muted px-1"></i>8*8</p>
+                                <p class="text-muted px-3 ">  <i class="bi bi-compass-fill text-muted px-1"></i>2000m<sup>2</sup></p>
+                              </div>
+                              <div class="d-flex justify-content-between align-items-center">
+                                <a class="btn bg-dark text-white" href="">Rezervasyon Yap</a>
+                                <p class="fw-bold mt-3">$20.138.098</p></div>
+                              
+                            </div>
+                          </div>
+                           </div>
+            
+                           <div class="col-sm-12 col-lg-4 col-md-4">
+                            <div class="card rounded-0 border-1">
+                                <img src="İmage/home2.jpg" class="card-img-top rounded-0" alt="home">
+                                <div class="card-body">
+                                  <p class="card-title text-muted">Muğla Türkiye</p>
+                                  <div class="cartext1 mt-4 d-flex ms-3">
+                                    <p class="text-muted px-3"><i class="bi bi-car-front-fill text-muted px-1"></i>bed</p>
+                                    <p class="text-muted px-3 "> <i class="bi bi-caret-right-fill text-muted px-1"></i>8*8</p>
+                                    <p class="text-muted px-3 ">  <i class="bi bi-compass-fill text-muted px-1"></i>2000m<sup>2</sup></p>
+                                  </div>
+                                  <div class="d-flex justify-content-between align-items-center">
+                                    <a class="btn bg-dark text-white" href="">Rezervasyon Yap</a>
+                                    <p class="fw-bold mt-3">$20.138.098</p></div>
+                                  
+                                </div>
+                              </div>
+    
+                         </div>
+            
+                    </div>
+
+</section>
+
+
+
+<section class="bg-dark " style="  height: 800px;">
+          <div class="container pt-5"  style="margin-top: -150px;" >
+
+            <div class=" row " style="margin-top:25%; color: #b5b5b5"     >
+                <div class="col-lg-4"    >
+                    <h6 class="" style="font-size: 30px;">Hamid Razza </h6>
+                    <p><small>Fouder Salord</small></p>
+                </div>
+
+            <div class="col-lg-8 " >
+            <h6 class="lh-lg" style=" margin-left:70px;   color:#595C5F;">“ Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Voluptates reiciendis labore voluptas sapiente eaque, quia vero
+                sunt maxime, vel error totam excepturi obcaecati debitis eligendi
+                amet? Alias ratione eaque dolore dolores minus tempora magnam
+                cumque perferendis, quos dicta velit iste neque nihil, quae
+                voluptatem pariatur beatae, praesentium temporibus! Est,
+                blanditiis. “ <br>
+            
+                <hr class="text-light" />
+            
+            </h6>
+
+         </div>
+
+             </div>
+
+
+          </div>
+
+          
+           <div class="container mt-4">
+                   <div class=" row ">
+                      <div class="col-6 col-md-3 col-sm-6 ">
+                        <img src="İmage/logo1 (1).png" alt="logo" class="w-75">
+                      </div>
+
+                      <div class=" col-6 col-md-3 col-sm-6">
+                        <img src="İmage/logo2.png" alt="logo" class="w-75">
+                      </div>
+
+
+                      <div class=" col-6  col-md-3 col-sm-6">
+                        <img src="İmage/logo3.png" alt="logo" class="w-75">
+                      </div>
+
+
+
+
+                      <div class=" col-6 col-md-3 col-sm-6">
+                        <img src="İmage/logo4.png" alt="logo" class="w-75">
+                      </div>
+
+
+
+
+
+
+
+                   </div>
+        
+
+
+
+           </div>
+
+
+
+
+</section>
+
+
+<!--Section Services-->
+
+
+<section class="container">
+          <h2 class="text-center text-dark mt-5">Hizmetlerimiz</h2>
+ <div class="row mt-5">
+            <div class="col-lg-5 col-md-12 col-12">
+                 <div class="d-flex">
+                          <div class="about-img mx-2">
+                            <img src="İmage/about1.png" alt="" class="img-fluid h-100 mt-4">
+                          </div>
+                            
+                              <div class="about-img">
+                                <img src="İmage/about2.png" alt="" class="img-fluid h-75">
+                              </div>
+                           
+                 </div>
+
+
+            </div>
+
+                <div class="col-lg-6 mt-5 ms-1 text-start">
+                    <h4>Konfor Bizim <br> Birinci Önceliğimizdir</h4>
+                    <p class="fst-normal">Lorem ipsum dolor, sit amet consectetur adipisicing elit. A,
+                        maxime inventore. Eum fugiat quam ex, voluptatem dicta excepturi
+                        maiores aliquid! Quas a voluptatibus suscipit blanditiis fugiat!
+                        Quaerat temporibus omnis provident, ab voluptatem fuga
+                        cupiditate labore deserunt culpa eum ipsum perferendis porro
+                        aut, illo tempore? Quibusdam iste et vel nobis nisi doloribus
+                        suscipit veniam ducimus consequatur natus numquam alias
+                        voluptates, autem sequi aut. Quas provident sapiente maiores
+                        numquam! Id ab ducimus possimus. Fugit dolores quaerat, impedit
+                        quae odio error natus officia corporis nisi quis pariatur
+                        reiciendis autem, ipsam velit soluta doloribus? Porro architecto
+                       excepturi iste a nisi cupiditate delectus deleniti harum. </p>
+                       <a href="" class="btn bg-dark text-white px-3"
+                       >Daha Fazlası İçin</a>
+                </div>
+
+
+
+
+
+ </div>
+</section>
+
+
+<section class="container">
+    <p class=" mb-0"style="margin-top: 100px" id="populer">Blog</p>
+            <div class="d-flex justify-content-between popular-title align-items-center mb-3 mt-1 ">
+             <h2>Güncel Konut Bilgileri</h2>
+                <a href="" class="btn bg-dark text-white px-3 py-2">Tümünü Gör</a>
+            </div>
+   
+                <div class="row">
+                        <div class="col-sm-12 col-lg-4 col-md-4 ">
+                           <div class="card rounded-0 border-1">
+                               <img src="İmage/home-2.jpg" class="card-img-top rounded-0" alt="home"style="height: 240px;" >
+                               <div class="card-body">
+                                 <p class="card-title text-muted">4 Nisan 2023</p>
+                                 <div class=" mt-4 ms-2">
+                                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Perferendis, quibusdam?</p>
+                                 </div>
+                                 <div class=" justify-content-between align-items-center">
+                                   <a class="btn text-primary" href="" style="background-color: #d4e8ff; ">Daha Fazla Oku </a>
+                                   
+                                 </div>
+                               </div>
+                             </div>
+   
+                        </div>
+   
+                        
+                        <div class="col-sm-12 col-lg-4 col-md-4 ">
+                            <div class="card rounded-0 border-1">
+                                <img src="İmage/home-3.jpg" class="card-img-top rounded-0" alt="home"style="height: 240px;" >
+                                <div class="card-body">
+                                  <p class="card-title text-muted">10 Ağusto 2023</p>
+                                  <div class=" mt-4 ms-2">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Perferendis, quibusdam?</p>
+                                  </div>
+                                  <div class=" justify-content-between align-items-center">
+                                    <a class="btn text-primary" href="" style="background-color: #d4e8ff; ">Daha Fazla Oku </a>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+    
+                         </div>
+
+
+                         <div class="col-sm-12 col-lg-4 col-md-4 ">
+                            <div class="card rounded-0 border-1">
+                                <img src="İmage/home5.jpg" class="card-img-top rounded-0" alt="home"style="height: 240px;" >
+                                <div class="card-body">
+                                  <p class="card-title text-muted">10 Mayıs 2023</p>
+                                  <div class=" mt-4 ms-2">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                     Perferendis, quibusdam?</p>
+                                  </div>
+                                  <div class=" justify-content-between align-items-center">
+                                    <a class="btn text-primary" href="" style="background-color: #d4e8ff; ">Daha Fazla Oku </a>
+                                    
+                                  </div>
+                                </div>
+                              </div>
+    
+                         </div>
+
+
+
+                      
+                      
+                      
+                      
+                      
+                      
+                        </div>
+   
+   </section>
+
+
+
+
+
+<!--Section Comments-->
+
+<section class="bg-dark " style="margin-top:150px; height: 650px;">
+    <div class="container ">
+        <div class="commentstitle d-flex justify-content-between " >
+        <h2 class="text-white fs-sm-5 fs-ms-5" style="padding-top: 100px ;" ;>Müşterilerimiz Bizim Hakkımızda <br>Ne Diyor?</h2>
+        <div class="icon "style="margin-top:110px;" >
+            <i class="bi bi-arrow-left-short btn btn-md text-light "></i>
+            <i class="bi bi-arrow-right-short btn btn-md text-light"></i>
+        </div>
+    </div>
+        
+        <div class="row mt-5">
+
+            <div class="border-0 col-4 bg-dark">
+                <div class="row ">
+                    <div class="col-5 col-md-7 col-lg-5 col-sm-7">
+                <img src="İmage/team-1.png" alt="" class="img-fluid ">
+                  </div>
+                    
+                   <div class="col-7 col-sm-12 col-md-12 col-lg-7 text-light mt-3">
+                    <h6>Jonas</h6>
+                    <p style="color:#BBBBBC ;">This is a wider card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit
+                        longer.</p>
+                        <small >Lead Designer</small>
+                   </div>
+                </div>
+                   
+                  
+      
+      
+            </div>
+      
+      
+            <div class="border-0 col-4 bg-dark">
+                <div class="row ">
+                    <div class="col-5 col-md-7 col-lg-5 col-sm-7">
+                <img src="İmage/team-2.png" alt="" class="img-fluid ">
+                  </div>
+                    
+                   <div class="col-7 col-sm-12 col-md-12 col-lg-7 text-light mt-3">
+                    <h6>Thomas</h6>
+                    <p style="color:#BBBBBC ;">This is a wider card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit
+                        longer.</p>
+                        <small >Lead Engineer</small>
+                   </div>
+                </div>
+                   
+                  
+      
+      
+            </div>
+
+
+            <div class="border-0 col-4 bg-dark">
+                <div class="row ">
+                    <div class="col-5 col-md-7 col-lg-5 col-sm-7">
+                <img src="İmage/team-3.png" alt="" class="img-fluid ">
+                  </div>
+                    
+                   <div class="col-7 col-sm-12 col-md-12 col-lg-7 text-light mt-3">
+                    <h6>Taylor</h6>
+                    <p style="color:#BBBBBC ;">This is a wider card with supporting text below as a natural
+                        lead-in to additional content. This content is a little bit
+                        longer.</p>
+                        <small >Lead Designer</small>
+                   </div>
+                </div>
+                   
+                  
+      
+      
+            </div>
+
+
+
+
+              </div>
+        
+        
+        
+        
+        
+       
+    
+    
+    </div>
+
+
+
+
+</section>
+
+
+<!--Section faqs-->
+
+<section class="container " style="margin-top:150px">
+    <h6>Sorular</h6>
+    <div class="row">
+        <div class="col-md-6 col-sm-12 col-6">
+            <h3 class="pt-2 pb-2">Sıkça Sorulan Sorular</h3>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. A,
+                maxime inventore. Eum fugiat quam ex, voluptatem dicta excepturi
+                maiores aliquid! Quas a voluptatibus suscipit blanditiis fugiat!
+                Quaerat temporibus omnis provident, ab voluptatem fuga
+                cupiditate labore deserunt culpa eum ipsum perferendis porro
+                aut, illo tempore? </p>
+                <a href="" class="btn bg-dark text-white px-3"
+                >Daha Fazlası İçin</a>
+        </div>
+
+
+<div class="col-md-6 col-sm-12 col-6 mt-5">
+
+    <div class="accordion" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                Ev sahibi neden evini satmak istiyor?
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                Evimin satışı/kiralaması ne kadar zaman alır?
+            </button>
+          </h2>
+          <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the second item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                Bizimle nasıl iletişim kuracaksınız?
+            </button>
+          </h2>
+          <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the third item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+
+</div>
+
+
+
+    </div>
+</section>
+
+<!--Footer -->
+
+<footer class="bg-dark mt-4">
+      <div class="container">
+
+       <div class="row ">
+              <div class="col-6   mt-5 " >
+               <h5 style="color:#D9D9D9 ">Bizim Hakkımızda </h5>
+                   <p  style="color:#D9D9D9 " > Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem,
+                    voluptatem.</p>
+                    <div class="icons-footer"style="color:#D9D9D9 " >
+                        <p><i class="bi bi-crosshair2 px-1"></i>Antalya</p>
+                        <p><i class="bi bi-telephone-fill px-1"></i>4444 4444 4444 </p>
+                        <p><i class="bi bi-envelope-fill px-1"></i>info.@gmail.com </p>
+                    </div>
+              </div>
+
+           <div class="col-3 mt-5 ">
+               <h5 style="color:#D9D9D9;">Hızlı Bağlantılar</h5>
+               <p class="" ><a href="" class="text-decoration-none my-1" style="color:#D9D9D9; ">Anasayfa</a></p>
+               <p class=""><a href=""class="text-decoration-none my-1 " style="color:#D9D9D9; ">Popüler</a></p>
+
+               <p class="" ><a href="" class="text-decoration-none my-1  " style="color:#D9D9D9;">Hizmetlerimiz</a></p>
+               <p class=""><a href=""class="text-decoration-none my-1" style="color:#D9D9D9;">Haberler</a></p>
+               <p class=""><a href=""class="text-decoration-none my-1 " style="color:#D9D9D9;" >İletişim</a></p>
+                </div>
+
+<div class="col-3 mt-5">
+    <h5 style="color:#D9D9D9;" >Bize Ulaşmak İçin</h5>
+    <p><a href="" class="text-decoration-none my-1 " style="color:#D9D9D9;" > <i class="bi bi-facebook"></i>  Facebook  </a></p>
+    <p><a href="" class="text-decoration-none my-1 "  style="color:#D9D9D9;"> <i class="bi bi-instagram"></i>  İnstagram   </a></p>
+  
+    <p><a href="" class="text-decoration-none my-1 " style="color:#D9D9D9;"> <i class="bi bi-linkedin"></i>Linkedin </a></p>
+    <p><a href="" class="text-decoration-none my-1 " style="color:#D9D9D9;" ><i class="bi bi-twitter-x"></i> Twitter</a></p>
+</div>
+
+       </div>
+<div class="row text-center  mt-5" style="color:#D9D9D9; ">
+    <div class="col-12">
+        <p>Copyright &copy; 2023 <small style="color:#595C5F;">Real Estate</small> Tüm Hakları Saklıdır.</p>
+    </div>
+    
+      </div>
+      </div>
+</footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
